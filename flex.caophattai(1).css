@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*reset css */
+body{
+    background-color: grey;
+}
+#outer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    margin:20px;
+}
+.box{
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    margin: 5px;
+}
+.bai1{
+    display: flex;
+}
+.bai2{
+    display: flex;
+    justify-content: center;   
+}
+.bai3{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+.bai4{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+}
+.bai5{
+    display: flex;
+    display: flex;
+    justify-content: space-between
+}
+.bai6{
+    display: flex;
+    justify-content: space-around
+}
+.bai7{
+    display: flex;
+	flex-wrap: wrap;
+ align-content:flex-start
+}
+.bai8{
+    display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	padding: 0 50px;
+}
+.bai9{
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;       
+	padding: 0 50px;
+}
+.bai10{
+    display: flex;
+    flex-direction:column;
+}
+.bai11{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+.bai12{
+    display: flex;
+flex-direction:column;
+align-items:center;
+justify-content:center
+}
+.bai13{
+    display: flex;
+    flex-direction:column;
+    align-items:flex-end;
+    justify-content:flex-end;
+}
+.bai14{
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+.bai15{
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+}
+.bai16{
+    display: flex;
+    flex-direction:column;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+.bai17{
+    display: flex;
+    flex-direction:column; 
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	padding: 50px 0px;
+	box-sizing: border-box;
+}
+.bai18{
+    display: flex;
+	flex-wrap: wrap;
+    flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 0px;
+	box-sizing: border-box;
+}
+.start{
+    align-self: flex-start;
+}
+.center{
+    align-self: center;
+}
+.end{
+    align-self: flex-end;
+}
+.bai19{   
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+}
+.bai20{
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+}
